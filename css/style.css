@@ -7,9 +7,14 @@ main{
 .w_70{
     width: 70%;
 }
-
+#set{
+    margin-top: 0;
+}
+#sidebar{
+    background-image: url("img/sidebar-bg.png")
+}
 .bg_blue{
-    background-color: rgb(63, 63, 130);
+    background-color: rgb(94, 94, 151);
 }
 .bg_gray{
     background-color: slategray;
@@ -27,4 +32,16 @@ main{
 }
 .fs_8{
     font-size: 0.8em;
+}
+.fs_5{
+    font-size:0.5em;
+}
+#plus{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.pe_03{
+    padding-right: 0.3rem;
 }

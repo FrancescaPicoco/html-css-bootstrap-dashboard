@@ -53,11 +53,72 @@
     <main class="">
             <div class="row h-100" id="main-cont">
                 <div class="col-3 bg_blue d-flex flex-lg-column" id="sidebar">
-                    <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-house px-2"></i><span>Home</span></a>
-                    <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple px-2"></i><span>Stats</span></a>
-                    <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple px-2"></i><span>Signals</span></a>
+                    <div class="row pt-4 pb-2">
+                        <div class="offset-1 col-2">
+                            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-house px-3"></i></a>
+                        </div>
+                        <div class="col-9">
+                            <span class="text-white">Home</span>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="offset-1 col-2">
+                            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple px-3"></i></a>
+                        </div>
+                        <div class="col-9">
+                            <span class="text-white">Stats</span>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="offset-1 col-2">
+                            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-signal px-3"></i></a>
+                        </div>
+                        <div class="col-9">
+                            <span class="text-white">Signals</span>
+                        </div>
+                    </div> 
+                    <div class="row" id="set">
+                        <div class="offset-1 col-11">
+                            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-gear px-3"></i></a>
+                        </div>
+                    </div> 
+
                 </div>
-                <div class="col-9 bg_gray h-100">destra </div>
+                <div class="col-9 bg_gray h-100">
+                    <div class="row p-2 bg-primary align-items-center">
+                        <div class="col-lg-7">
+                            <div class="col-12 d-flex">
+                                <h5>Boolean
+                                <span class="badge rounded-pill text-bg-dark fs_5 bg-opacity-25">Piano blaze</span> 
+                                </h5>                              
+                            </div>
+                            <div class="col-12">
+                                <span class="badge rounded-pill text-bg-dark fs_5 bg-opacity-25">3 app</span>
+                                <i class="fa-solid fa-angles-right text-white fs_5"></i>
+                                <span class="badge rounded-pill text-bg-dark fs_5 bg-opacity-25">Boolean mobile app</span>
+                                <span class="badge rounded-pill text-bg-dark fs_5 bg-opacity-25">Boolean web app</span>
+                                <span class="badge rounded-pill text-bg-dark fs_5 bg-opacity-25">Boolean blog app</span>                           
+                            </div>
+                        </div>
+                        <div class="col-lg-3">      <!--colonna che non prende align-it-center-->
+                            <div class="col-12">
+                                <p class="text-white fs_8">Studenti online negli ultimi 30 minuti</p>
+                            </div>    
+                            <div class="col-12">
+                                <p class="fs-4 text-white">125</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 d-flex">
+                            <div class="col-9">
+                                <p class="text-white fs_8 pe_03">Nuovo Studente</p>  <!--non è centrato on y-->
+                            </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-light" id="plus">+</button>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
             </div> 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
