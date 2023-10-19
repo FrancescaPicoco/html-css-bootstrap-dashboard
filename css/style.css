@@ -12,9 +12,13 @@ w_70{
     border: none;
     color: slategray;
     background: none;
+    padding-right: 1.5rem;
 }
 .button-y{
     border: none;
     color: orange;
     background: none;
+}
+.fs_8{
+    font-size: 0.8em;
 }
