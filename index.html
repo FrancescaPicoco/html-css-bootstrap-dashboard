@@ -16,7 +16,7 @@
     <header>
         <nav class="container-fluid navbar-light bg-light navbar-expand-lg pb-2 pt-2">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-2 col-2 ">
+                    <div class="col-lg-3 col-md-2 col-2">
                         <a class="navbar-brand" href="#">
                             <img src="img/mobile-logo.png"alt="" class="d-lg-none img-fluid" id="logo_sm">
                         </a>
@@ -30,7 +30,7 @@
                         </form>
                     </div>
                     <div class="col-lg-3 col-md-2  col-2 row flex-nowrap">
-                        <div class="col-lg-10 collapse navbar-collapse">
+                        <div class="col-lg-10 collapse navbar-collapse justify-content-end">
                             <button type="button" class="button">
                                 <i class="fa-solid fa-list-ul"></i>
                             </button>
@@ -41,7 +41,7 @@
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </button>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 text-md-end text-sm-end text-end">
                             <button type="button" class="button-y">
                                 <i class="fa-solid fa-bell"></i>
                             </button>
@@ -50,14 +50,15 @@
                 </div>
         </nav>      
     </header>
-    <main>
-       <!-- <div class="row py-3">
-            <div class="col-3 bg_blue" id="sidebar">ciao</div>
-            <div class="col-9 bg_gray">destra </div>
-        </div> 
-        -->
-
-
+    <main class="">
+            <div class="row h-100" id="main-cont">
+                <div class="col-3 bg_blue d-flex flex-lg-column" id="sidebar">
+                    <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-house px-2"></i><span>Home</span></a>
+                    <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple px-2"></i><span>Stats</span></a>
+                    <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple px-2"></i><span>Signals</span></a>
+                </div>
+                <div class="col-9 bg_gray h-100">destra </div>
+            </div> 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>  
