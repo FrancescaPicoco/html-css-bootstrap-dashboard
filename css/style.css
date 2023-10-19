@@ -36,12 +36,29 @@ main{
 .fs_5{
     font-size:0.5em;
 }
+.fs_7{
+    font-size: 0.7em;
+}
+.w_10{
+    width: 10%;
+    background: none;
+}
+.grayone{
+    padding: 0.2rem;
+    border: 1px solid gray;
+}
+.inv{
+    filter: opacity(50%)
+}
 #plus{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
 }
-.pe_03{
-    padding-right: 0.3rem;
+.me_03{
+    margin-right: 0.3rem;
+}
+.m0{
+    margin-top: auto;
 }
