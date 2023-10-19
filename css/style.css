@@ -1,10 +1,9 @@
-.nav{
-}
+
 main{
     height: calc(100% - 4vh);
     background-color: slateblue;
 }
-w_70{
+.w_70{
     width: 70%;
 }
 
