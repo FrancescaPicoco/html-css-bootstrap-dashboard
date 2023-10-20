@@ -2,7 +2,8 @@ header{
     min-height: 4vh;
 }
 main{
-    height: calc(100vh - 4vh);
+   min-height: calc(100% - 4vh);
+    
 }
 #main-cont{
     overflow: scroll;
@@ -13,8 +14,10 @@ main{
 #set{
     margin-top: 0;
 }
-#sidebar{
-    background-image: url("img/sidebar-bg.png")
+#sidebar{   
+    background-image: url("img/sidebar-bg.png");
+    background-size: cover;
+    background-color: #051E34;
 }
 .bg_blue{
     background-color: rgb(94, 94, 151);
