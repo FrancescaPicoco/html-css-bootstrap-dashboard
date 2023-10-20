@@ -1,17 +1,14 @@
 header{
-    height: 8vh;
+    height: 30px;
 }
 main{
-   min-height: calc(100% - 8vh);   
+   min-height: calc(100vh - 30px);   
 }
 .my_app{
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-}
-#main-cont{
-    overflow: scroll;    /*SCROLL PROB*/
 }
 .side:hover{
     background-color: rgba(0, 0, 0, 0.228);
@@ -26,9 +23,11 @@ main{
     background-image: url("img/sidebar-bg.png");
     background-size: cover;
     background-color: #051E34;
-    height: calc(100% - 8vh);
 }
-
+#main-cont{
+    height: 100vh;
+    padding-top: 40px;
+}
 .bg_blue{
     background-color: rgb(94, 94, 151);
 }
