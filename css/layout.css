@@ -22,4 +22,7 @@
     #order_c{
         order: 3;
     }
+    table#tab .hide-tab {
+        display: none;
+     }
 }
