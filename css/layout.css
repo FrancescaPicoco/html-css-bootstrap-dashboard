@@ -4,6 +4,13 @@
     }
     #logo_sm{
         display: block;
-        height: 50px;
+        height: 40px;
+        background: none;
+    }
+    .hide{
+        display:none;
+    }
+    #sidebar{
+        flex-direction: column;
     }
 }

@@ -1,15 +1,23 @@
 header{
-    min-height: 4vh;
+    height: 8vh;
 }
 main{
-   min-height: calc(100% - 4vh);
-    
+   min-height: calc(100% - 8vh);   
+}
+.my_app{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 #main-cont{
-    overflow: scroll;
+    overflow: scroll;    /*SCROLL PROB*/
 }
-.w_70{
-    width: 70%;
+.side:hover{
+    background-color: rgba(0, 0, 0, 0.228);
+}
+.w_50{
+    width: 50%;
 }
 #set{
     margin-top: 0;
@@ -18,24 +26,16 @@ main{
     background-image: url("img/sidebar-bg.png");
     background-size: cover;
     background-color: #051E34;
+    height: calc(100% - 8vh);
 }
+
 .bg_blue{
     background-color: rgb(94, 94, 151);
 }
 .bg_gray{
     background-color: slategray;
 }
-.button{
-    border: none;
-    color: slategray;
-    background: none;
-    padding-right: 1.5rem;
-}
-.button-y{
-    border: none;
-    color: orange;
-    background: none;
-}
+/*FONT*/
 .fs_8{
     font-size: 0.8em;
 }
@@ -49,12 +49,10 @@ main{
     width: 10%;
     background: none;
 }
+/*BUTTON*/
 .grayone{
     padding: 0.2rem;
     border: 1px solid gray;
-}
-.inv{
-    filter: opacity(50%)
 }
 #plus{
     padding-top: 0.5rem;
@@ -62,9 +60,24 @@ main{
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
 }
+.inv{
+    filter: opacity(50%)
+}
+.button{
+    border: none;
+    color: slategray;
+    background: none;
+    padding-right: 1.5rem;
+}
+.button-y{
+    border: none;
+    color: orange;
+    background: none;
+}
+/*MARGIN*/
 .me_03{
     margin-right: 0.3rem;
 }
 .m0{
-    margin-top: auto;
+    margin-top: 0;
 }
