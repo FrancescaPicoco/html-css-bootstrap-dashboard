@@ -22,6 +22,9 @@
     #order_c{
         order: 3;
     }
+    
+}
+@media  screen and (max-width:768px) {
     table#tab .hide-tab {
         display: none;
      }
