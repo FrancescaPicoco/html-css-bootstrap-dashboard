@@ -9,29 +9,23 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
+/*SIDE BAR*/
 .side:hover{
     background-color: rgba(0, 0, 0, 0.228);
 }
-.w_50{
-    width: 50%;
-}
+
 #set{
-    margin-top: 0;
+    margin-top: auto;
 }
 #sidebar{   
     background-image: url("img/sidebar-bg.png");
     background-size: cover;
     background-color: #051E34;
 }
+/*MAIN CONTENT*/
 #main-cont{
     height: 100vh;
     padding-top: 50px;
-}
-.bg_blue{
-    background-color: rgb(94, 94, 151);
-}
-.bg_gray{
-    background-color: slategray;
 }
 /*FONT*/
 .fs_8{
@@ -46,6 +40,9 @@ main{
 .w_10{
     width: 10%;
     background: none;
+}
+.w_50{
+    width: 50%;
 }
 /*BUTTON*/
 .grayone{

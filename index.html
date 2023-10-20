@@ -66,7 +66,7 @@
                     <div class="offset-lg-1 col-2">
                         <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-house px-3"></i></a>
                     </div>
-                    <div class="col-9 d-lg-block d-md-none d-sm-none d-none">
+                   <div class="col-9 d-lg-block d-md-none d-sm-none d-none">
                         <span class="text-white ms-2">Home</span>
                     </div>
                 </div>
@@ -87,13 +87,14 @@
                     </div>
                 </div> 
                 <div class="row" id="set">
-                    <div class="offset-lg-1 col-11 m0">
+                    <div class="offset-lg-1 col-11 mt-auto">
                         <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-gear px-3"></i></a>
                     </div>
                 </div> 
             </div>
-<!--Fine SideBar Section-->            
+<!--FINE SIDEBAR SECTION-->            
             <div class="col-10">
+<!--BLUE SECTION-->               
                 <div class="row p-2 bg-primary align-items-center">
                     <div class="col-lg-7" id="order_b">
                         <div class="col-12 d-flex">
@@ -122,7 +123,17 @@
                             <span class="text-white fs_5">Nuovo Studente</span>  <!--non è centrato on y-->
                         </div>
                         <div class="col-lg-4 col-2">
-                            <button type="button" class="btn btn-outline-light fs-5" data-bs-toggle="offcanvas" data-bs-target="offcanvas" aria-controls="offcanvasButton" id="plus">+</button>                   
+                            <button type="button" class="btn btn-outline-light fs-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="plus">+</button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  ...
+                                </div>
+                              </div>
+                              
                         </div>                    
                     </div>
                 </div>    
@@ -303,7 +314,7 @@
                                 <div class="accordion">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseoOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseoOne">
                                           <span>Come aggiungere nuovi studenti?</span>
                                         </button>
                                         </h2>
