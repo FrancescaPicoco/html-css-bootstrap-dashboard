@@ -13,4 +13,13 @@
     #sidebar{
         flex-direction: column;
     }
+    #order_a{
+        order: 1;
+    }
+    #order_b{
+        order: 2;
+    }
+    #order_c{
+        order: 3;
+    }
 }
