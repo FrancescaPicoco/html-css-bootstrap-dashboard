@@ -4,6 +4,9 @@ header{
 main{
     height: calc(100vh - 4vh);
 }
+#main-cont{
+    overflow: scroll;
+}
 .w_70{
     width: 70%;
 }
